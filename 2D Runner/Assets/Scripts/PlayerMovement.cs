@@ -35,6 +35,17 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
+        if(!(body.IsTouching(groundCollider)))
+            {
+                anim.SetBool("inAir",true);
+            }
+
+        else
+            {
+                anim.SetBool("inAir",false);
+
+            }
+
         if(horizontalInput > 0.01f)
         {   
             
@@ -49,9 +60,16 @@ public class PlayerMovement : MonoBehaviour
 
         }
 
+        
         //Set Animator Parameter
         anim.SetBool("run",horizontalInput != 0);
 
         
     }
+
+    
+        
+
+
+    
 }

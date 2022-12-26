@@ -692,7 +692,7 @@ Transform:
   - {fileID: 1938243670}
   - {fileID: 134860998}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &180614812
 GameObject:
@@ -5924,7 +5924,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &492760659
 GameObject:
@@ -6580,7 +6580,7 @@ Transform:
   - {fileID: 986620908}
   - {fileID: 329401045}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &775379088
 BoxCollider2D:
@@ -8974,6 +8974,7 @@ GameObject:
   - component: {fileID: 1826479617}
   - component: {fileID: 1826479619}
   - component: {fileID: 1826479620}
+  - component: {fileID: 1826479621}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -9130,6 +9131,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1826479621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826479614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3089e4bc1bbd72742b8f9bef0ec8dc45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  snow: {fileID: 408894598}
 --- !u!1 &1826712325
 GameObject:
   m_ObjectHideFlags: 0
